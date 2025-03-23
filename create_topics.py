@@ -35,7 +35,7 @@ topic_list = [
 # Create topics and list them
 try:
     admin_client.create_topics(new_topics=topic_list, validate_only=False)
-    print(f"Topics created successfully:")
+    print("Topics created successfully:")
     for topic in topic_list:
         print(f"- {topic.name}")
 
